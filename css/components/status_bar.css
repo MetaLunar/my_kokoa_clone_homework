@@ -1,0 +1,16 @@
+.status_bar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.status_bar--W {
+  margin-left: 8px;
+}
+.status_bar--B {
+  margin-right: 5px;
+}
+
+.status_bar--B i {
+  margin-right: 8px;
+}
