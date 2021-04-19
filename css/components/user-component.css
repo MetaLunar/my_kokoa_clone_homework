@@ -34,7 +34,7 @@
 
 .friends-screen__channel {
   margin-top: 25px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--meta-line);
   padding-top: 15px;
 }
 
@@ -52,4 +52,12 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component_subtitle--mo span {
+  border: 1px solid red;
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+  color: red;
 }
