@@ -4,10 +4,21 @@
 
 /* imponents */
 @import "components/status_bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
 
 /* screen*/
 @import "screen/welcome.css";
+@import "screen/friends.css";
 
 body {
+  color: var(--meta-gray);
   font-family: "Ubuntu Mono", monospace;
+  height: 130vh;
+}
+
+.main-screen {
+  padding: 0px var(--meta-margin);
 }
